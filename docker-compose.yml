@@ -43,7 +43,7 @@ services:
     ports:
       - "3306:3306"
   frontend:
-    build: 
+    build:
       context: ./frontend
       args:
         api_url: http://localhost:3000
@@ -54,4 +54,4 @@ services:
       - "80:80"
 
 networks:
-  - gif-browsing-app
+  gif-browsing-app:
