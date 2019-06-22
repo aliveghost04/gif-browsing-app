@@ -1,0 +1,6 @@
+[submodule "backend"]
+	path = backend
+	url = git@github.com:aliveghost04/gif-browsing-app-backend.git
+[submodule "frontend"]
+	path = frontend
+	url = git@github.com:aliveghost04/gif-browsing-app-frontend.git
