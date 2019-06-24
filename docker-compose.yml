@@ -36,7 +36,7 @@ services:
     networks:
       - gif-browsing-app
     environment:
-      - MYSQL_ROOT=mysql_root
+      - MYSQL_ROOT_PASSWORD=mysql_root
       - MYSQL_DATABASE=gif_browsing_app_db
     volumes:
       - ~/docker-volumes/mysql-gif-browsing-app:/var/lib/mysql
