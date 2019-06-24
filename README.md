@@ -2,7 +2,7 @@
 
 ## Project setup
 
-After clone this repo you need to initialise the sub repos using `git submodule init`.
+After clone this repo you need to initialise the sub repos using `git submodule init` and then `git submodule update`.
 
 ### Build image using docker
 You can either, use docker-compose or just docker. For docker you can see the readme of the repos.
